@@ -310,5 +310,6 @@ body {
   }
   .header h1 {
     font-size: 21px;
+    border: 1px solid red;
   }
 }
