@@ -235,7 +235,7 @@ body {
 }
 @media screen and (max-width: 456px) {
   .info {
-    column-gap: 0.5rem;
+    column-gap: 0.5rem !important;
   }
   .header h1 {
     font-size: 27px;
@@ -262,17 +262,26 @@ body {
     padding: 22px 30px 30px 30px !important;
     row-gap: 1rem !important;
   }
+  .header {
+    column-gap: 20px;
+  }
   .header h1 {
-    font-size: 25px;
+    font-size: 23px;
+  }
+  .info {
+    column-gap: 0.35rem !important;
   }
   .lead span, .lead label {
-    font-size: 16.5px;
+    font-size: 15.5px;
   }
   .menu-wrap li:not(:nth-of-type(1)) {
     margin-top: 11px;
   }
   .filter input::placeholder, .add input::placeholder {
     font-size: 14px;
+  }
+  .filter, .add {
+    column-gap: 1.5rem !important;
   }
   .btn-group button {
     font-size: 15px;
@@ -294,4 +303,10 @@ body {
   .add button {
     padding: .3rem .7rem;
   }
+}
+@media screen and (max-width: 370px) {
+  .wrapper {
+    padding: 22px 26px 28px 26px !important;
+  }
+
 }
