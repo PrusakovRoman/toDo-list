@@ -5,15 +5,15 @@ let filterParams = {
   state: 'all'
 }
 
-// setTimeout(() => {
-//   const preloader = document.querySelector('.preloader');
-//   const image = document.querySelector('.preloader__image');
+setTimeout(() => {
+  const preloader = document.querySelector('.preloader');
+  const image = document.querySelector('.preloader__image');
 
-//   [preloader, image].forEach(elem => {
-//     elem.classList.add('close');
-//   });
+  [preloader, image].forEach(elem => {
+    elem.classList.add('close');
+  });
 
-// }, 3400);
+}, 3400);
 
 function renderItem(markup, outputClass) {
   document.querySelector(outputClass).insertAdjacentHTML('beforeend', markup);

@@ -216,6 +216,11 @@ body {
     font-size: 29px !important;
   }
 }
+@media screen and (max-width: 576px) {
+  .menu-wrap li span {
+    max-width: 280px;
+  }
+}
 @media screen and (max-width: 505px) {
   .wrapper {
     padding: 22px 38px 34px 38px !important;
@@ -231,6 +236,9 @@ body {
   }
   .filter input::placeholder, .add input::placeholder {
     font-size: 15px;
+  }
+  .menu-wrap li span {
+    max-width: 220px;
   }
 }
 @media screen and (max-width: 456px) {
@@ -303,6 +311,9 @@ body {
   .add button {
     padding: .3rem .7rem;
   }
+  .menu-wrap li span {
+    max-width: 180px;
+  }
 }
 @media screen and (max-width: 370px) {
   .wrapper {
@@ -310,6 +321,8 @@ body {
   }
   .header h1 {
     font-size: 21px;
-    border: 1px solid red;
+  }
+  .menu-wrap li span {
+    max-width: 140px;
   }
 }
